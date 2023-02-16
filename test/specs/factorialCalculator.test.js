@@ -35,7 +35,7 @@ describe('Testing The greatest factorial calculator! functionality', () => {
         
     });
 
-    it.only('Verify that  Qxf2 Services link open the correct page', async() => {
+    it('Verify that Qxf2 Services link open the correct page', async() => {
 
         await MainPage.qxf2ServicesLink.click();
         expect(await Qxf2ServicesPage.qxf2ServicesTitle.getText()).to.be.equal('QA for startups');
