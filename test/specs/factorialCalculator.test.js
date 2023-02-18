@@ -6,8 +6,8 @@ const { expect } = require('chai');
 
 describe('Testing The greatest factorial calculator! functionality', () => {
 
-    before(() => MainPage.open())
-
+    beforeEach(() => MainPage.open());
+    
     it('Verify title and correct output of the calculator', async () => {
         
         expect(await MainPage.title.getText()).to.be.equal('The greatest factorial calculator!')

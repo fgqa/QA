@@ -5,7 +5,7 @@ class MainPage {
     get textBox() {return $('#number')};
     get calculateBtn() {return $('#getFactorial')};
     get resultText() {return $('#resultDiv')};
-    get title() {return $('h1[contains(text(), "The greatest factorial calculator!")]')};
+    get title() {return $('//h1[contains(text(), "The greatest factorial calculator!")]')};
     get termsAndConditionsLink() {return $('a[href="/privacy"]')};
     get privacyLink() {return $('a[href="/terms"]')};
     get qxf2ServicesLink() {return $('a[href*="qa-interview')};
