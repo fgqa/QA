@@ -1,0 +1,99 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1677261873904' stop='1677261877929'>
+    <name>Testing The greatest factorial calculator! functionality</name>
+    <title>Testing The greatest factorial calculator! functionality</title>
+    <test-cases>
+        <test-case start='1677261873904' status='passed' stop='1677261875562'>
+            <name>Verify title and correct output of the calculator</name>
+            <title>Verify title and correct output of the calculator</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.177'/>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.177'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1677261875563' status='failed' stop='1677261875911'>
+            <name>Verify that Terms and Condition link open the correct page</name>
+            <title>Verify that Terms and Condition link open the correct page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.177'/>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.177'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Text did not match: expected 'This is the privacy document. We are …' to equal 'This is the terms and conditions docu…'      
+                      actual expected
+                      
+                      'This is the privacyterms and conditions document. We are not yet ready with it. Stay tuned!'
+                      </message>
+                <stack-trace>AssertionError: Text did not match: expected 'This is the privacy document. We are …' to equal 'This is the terms and conditions docu…'
+                    at Context.&lt;anonymous> (C:\Q\test\specs\factorialCalculator.test.js:25:94)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1677261875912' status='failed' stop='1677261876249'>
+            <name>Verify that Privacy link open the correct page</name>
+            <title>Verify that Privacy link open the correct page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.177'/>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.177'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Text did not match: expected 'This is the terms and conditions docu…' to equal 'This is the privacy document. We are …'      
+                      actual expected
+                      
+                      'This is the termsprivacy and conditions document. We are not yet ready with it. Stay tuned!'
+                      </message>
+                <stack-trace>AssertionError: Text did not match: expected 'This is the terms and conditions docu…' to equal 'This is the privacy document. We are …'
+                    at Context.&lt;anonymous> (C:\Q\test\specs\factorialCalculator.test.js:33:85)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1677261876250' status='passed' stop='1677261877928'>
+            <name>Verify that Qxf2 Services link open the correct page</name>
+            <title>Verify that Qxf2 Services link open the correct page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.177'/>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.177'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

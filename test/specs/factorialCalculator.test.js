@@ -23,7 +23,7 @@ describe('Testing The greatest factorial calculator! functionality', () => {
 
         await MainPage.termsAndConditionsLink.click();
         expect(await TandCPage.termsAndConditionsText.getText(), 'Text did not match').to.be.equal('This is the terms and conditions document. We are not yet ready with it. Stay tuned!');
-        expect(await browser.getUrl()).to.be.equal('https://qainterview.pythonanywhere.com/terms');
+        expect(await browser.getUrl(),"URL for the Terms and Condition Page does not match").to.be.equal('https://qainterview.pythonanywhere.com/terms');
         
     });
 
@@ -31,7 +31,7 @@ describe('Testing The greatest factorial calculator! functionality', () => {
 
         await MainPage.privacyLink.click();
         expect(await PrivacyPage.privacyText.getText(), 'Text did not match').to.be.equal('This is the privacy document. We are not yet ready with it. Stay tuned!');
-        expect(await browser.getUrl()).to.be.equal('https://qainterview.pythonanywhere.com/privacy');
+        expect(await browser.getUrl(), "URL for the Privacy Page does not match").to.be.equal('https://qainterview.pythonanywhere.com/privacy');
         
     });
 
